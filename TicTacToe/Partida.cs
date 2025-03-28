@@ -10,8 +10,8 @@ public class Partida
    
 }
 
-while (partida != max_partida)
+/*while (partida != max_partida)
 {
-    //Console.WriteLine($"{Guanyador}");
-}
+    Console.WriteLine($"{Guanyador}");
+}*/
 
