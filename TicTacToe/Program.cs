@@ -16,8 +16,7 @@ class Program
         {
             BaseAddress = uri
         };
-       // var response_partida = client.GetFromJsonAsync<Partida>("partida");
-        // Console.WriteLine(response_partida.Result);
+       var partida = client.GetFromJsonAsync<Partida>("partida/");
         //Jugadors com una string 
         var response_participants = await client.GetStringAsync("jugadors");
         // Patro per participants
@@ -35,7 +34,6 @@ class Program
         // LlistarJugadors();
         // Partida.Resultat();
         // Resultat.Campio();
-
         */
     }
 }
